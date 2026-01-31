@@ -1,0 +1,13 @@
+import React from 'react'
+import ImageComp from './Image'
+
+const Search = () => {
+  return (
+    <div className="bg-inputGray py-2 px-4 flex items-center gap-4 rounded-full">
+     <ImageComp src="icons/explore.svg" alt="Search Icon" w={16} h={16} />
+     <input type="text" placeholder='Search' className='bg-transparent outline-none placeholder:text-textGray' />
+    </div>
+  )
+}
+
+export default Search
